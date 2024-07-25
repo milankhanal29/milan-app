@@ -24,7 +24,10 @@ import { Subscription, interval } from 'rxjs';
     >
       <div class="flex flex-row gap-3">
         <logo/>
-        <span>{{ profile().name }} </span>
+<!--        <span>{{ profile().name }} </span>-->
+      </div>
+      <div class="flex items-center gap-1">
+        <span>Copyright &copy; {{ currentYear() }} khanalmilan.com.np. All rights reserved.</span>
       </div>
         <div class="flex items-center gap-1">
           <icon
@@ -58,7 +61,9 @@ export class Footer {
       });
     });
   }
-
+  currentYear(): number {
+    return new Date().getFullYear();
+  }
   getCurrentTime(): string {
     const now = new Date();
     const hours = now.getHours();
