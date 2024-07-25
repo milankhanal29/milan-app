@@ -51,11 +51,7 @@ export class AboutPage{
   public aboutDetails =  [
     {
       title: 'What I Do',
-      desc: `I've worked on a variety of projects, ranging from
-      mobile apps and web development to optimizing performance, writing clean code, and emphasizing good design
-      principles. I take pride in my attention to detail and commitment to creating efficient, well-designed solutions
-      that meet both user needs and industry standards. I'm your go-to person for JavaScript frameworks and ensuring
-      the overall quality of software development projects.`
+      desc: `I've worked on a variety of projects,..........`
     },
     {
       title: 'Always Learning',
